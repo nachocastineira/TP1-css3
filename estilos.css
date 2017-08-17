@@ -3,17 +3,23 @@
 }
 
 #menu{
-	background-color: orange;
+	background-color: darkorange;
 }
 
 .botonBarra{
-	background-color: orange;
+	background-color: darkorange;
 	color: white;
 	margin: 2px;
 	padding: 2px;
 	border: none;
 	font-size: 15px;
 	font-style: bold;
+
+}
+
+html
+{
+padding: 0px;
 
 }
 
@@ -29,53 +35,64 @@
 	display: inline-flex;
 	flex-direction: row;
 	margin-bottom: 0px;
-	padding-bottom: 0px; 
-
-
-
-}
-
+	padding-bottom: 0px;
+ }
 
 .menusMedios2 {
 	width: 45%;
 	display: inline-grid;
 	flex-direction: row;
 	margin-bottom: 0px;
-	padding-bottom: 0px; 
+	padding-bottom: 0px;
+	border-top: 1px solid black;
 
 
 
 }
 
-.tituloMenu{ 
+.tituloMenu{
 	color: orange;
 	font-style: bold;
 	margin-bottom: 1px;
-	padding-bottom: 1px; 
+	padding-bottom: 1px;
+	font-family: sans-serif;
  }
 
  #delivery{
  	margin-top: 28px;
  	margin-left: 6px;
  		margin-bottom: 1px;
-	padding-bottom: 1px; 
+	padding-bottom: 1px;
  }
 
  .cajas{
- 	border-top: solid 1px grey;
- 	
+
+
  }
 
  #caja1{
- 	display: 
+ 	display:
  }
 
 
- #accesoMenu { 
+ #accesoMenu {
  	color: orange;
  	font-style: bold;
 
   }
+
+	#formulario
+	{
+		background-color: #EDEDED;
+		width: 55%;
+		border: 1px solid black;
+	}
+
+	#botonIngresar{
+		margin-top: 10px;
+		margin-left: 50px;
+		margin-right: 30px;
+	}
 
   #textoMenu{
 
@@ -83,10 +100,12 @@
   	width: 700px;
   }
 
-  .formIngreso { 
+  .formIngreso {
 
  	display: block;
- 	padding: 5px;
+	margin-left: 30px;
+	margin-right: 30px;
+ 	padding: 2px;
    }
 
 #etiqueta{
@@ -105,6 +124,48 @@
 	border: 1px solid black;
 }
 
+.fotoPedido{
+	display: inline-grid;
+	border: 2px solid black;
+}
+
+.textoBanner{
+	display: inline;
+}
+
+#salirTexto{
+	text-align: left;
+	color: orange;
+	font-family: sans-serif;
+}
+
+
+#deliveryTexto{
+	text-align: left;
+	color: grey;
+	font-family: sans-serif;
+}
+
+#bienvenidoTexto{
+	text-align: left;
+	color: grey;
+	font-family: sans-serif;
+}
+
+.textoPedido
+{
+	color: orange;
+	font-family: sans-serif;
+	text-align: justify;
+	padding: 3%;
+}
+
+.recuadroPedido{
+	background-color: #EDEDED;
+	width: 40%;
+	border: 1px solid grey;
+}
+
 .imagenes
 {
 	margin-left:  250px;
@@ -114,13 +175,31 @@
 
 }
 
+
+
 .tituloFoto
 {
 	padding: -20px;
 	margin: -4px;
 	background-color: black;
 	color: white;
+	display: block;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
 
+
+.tituloFoto2
+{
+	padding: -20px;
+	margin: -4px;
+	background-color: black;
+	color: white;
+	display: block;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
 }
 
 
@@ -167,4 +246,58 @@ footer a {
 
 #flecha2 {
 	transform:rotate(180deg);
+}
+
+.menuListado
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 0;
+	width: 50%;
+}
+
+.miPedido
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 0;
+	width: 50%;
+}
+
+.container2{
+	display: inline-flex;
+	width: 100%;
+}
+
+.menu{
+	color: #F47600;
+}
+
+
+/* estilos para el acordeon del menu */
+
+#accordion{
+	float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.tituloroll {
+    font-size: 12pt;
+    margin: 0px;
+    padding: 10px;
+    background: #E5E5E5;
+    border-bottom: 1px solid #fff;
+		font-family: sans-serif;
+}
+#accordion li div.content{
+    display: none;
+    padding: 10px;
+    background: #ffffff	;
+    border: 1px solid #ddd;
+}
+#accordion li:hover div.content{
+    display: inherit;
+		font-family: sans-serif;
 }
